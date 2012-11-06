@@ -1,11 +1,10 @@
 # -*- encoding: utf-8 -*-
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'motion-joystick/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "motion-joystick"
-  gem.version       = Motion::Joystick::VERSION
+  gem.version       = "0.1"
   gem.authors       = ["Akash Manohar J"]
   gem.email         = ["akash@akash.im"]
   gem.description   = %q{Joystick library for Cocos2D iOS games written using RubyMotion}

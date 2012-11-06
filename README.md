@@ -1,6 +1,6 @@
 # Motion::Joystick
 
-TODO: Write a gem description
+Joystick library for use in Cocos2D iOS games written in RubyMotion
 
 ## Installation
 
@@ -18,7 +18,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add the following line to your `Rakefile`
+
+    require 'motion-joystick'
 
 ## Contributing
 
